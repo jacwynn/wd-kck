@@ -1,0 +1,8 @@
+.header {
+  background-color: #d9534f;
+}
+
+.header nav li a {
+  color: white;
+  text-transform: uppercase;
+}
