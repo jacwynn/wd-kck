@@ -2,7 +2,7 @@
   background-color: #d9534f;
 }
 
-.header nav li a {
-  color: white;
+.headerNavLink {
+  color: white !important;
   text-transform: uppercase;
 }

@@ -35,13 +35,13 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar className="ml-0 w-100 justify-content-between">
               <NavItem className="mb-0">
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="/" className={styles.headerNavLink}>Home</NavLink>
               </NavItem>
               <NavItem className="mb-0">
-                <NavLink href="/about">About Us</NavLink>
+                <NavLink href="/about" className={styles.headerNavLink}>About Us</NavLink>
               </NavItem>
               <UncontrolledDropdown className="mb-0" nav inNavbar>
-                <DropdownToggle nav caret>
+                <DropdownToggle nav caret className={styles.headerNavLink}>
                   Students
                 </DropdownToggle>
                 <DropdownMenu right>
@@ -54,10 +54,10 @@ export default class Header extends React.Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem className="mb-0">
-                <NavLink href="/financial-aid">Financial Aid</NavLink>
+                <NavLink href="/financial-aid" className={styles.headerNavLink}>Financial Aid</NavLink>
               </NavItem>
               <UncontrolledDropdown className="mb-0" nav inNavbar>
-                <DropdownToggle nav caret>
+                <DropdownToggle nav caret className={styles.headerNavLink}>
                   Programs
                 </DropdownToggle>
                 <DropdownMenu right>
@@ -82,13 +82,13 @@ export default class Header extends React.Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem className="mb-0">
-                <NavLink href="/services">Services</NavLink>
+                <NavLink href="/services" className={styles.headerNavLink}>Services</NavLink>
               </NavItem>
               <NavItem className="mb-0">
-                <NavLink href="/va-benefits">VA Benefits</NavLink>
+                <NavLink href="/va-benefits" className={styles.headerNavLink}>VA Benefits</NavLink>
               </NavItem>
               <NavItem className="mb-0">
-                <NavLink href="/contact">Contact Us</NavLink>
+                <NavLink href="/contact" className={styles.headerNavLink}>Contact Us</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
