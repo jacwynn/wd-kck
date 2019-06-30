@@ -4,8 +4,17 @@
 }
 
 .orientationTable p,
-.orientationTable h4 {
+.orientationTable h4,
+.orientationSection h2 {
   text-align: center;
+}
+
+.removeMargin {
+  margin-bottom: 0;
+}
+
+.finePrint {
+  max-width: 20rem;
 }
 
 @media (min-width: 768px) {
