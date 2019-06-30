@@ -1,0 +1,34 @@
+.programSection {
+  font-family: "Nanum Gothic", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.headline,
+.cardTitle {
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.programs a {
+  color: black;
+}
+
+.programs a:hover {
+  text-decoration: none;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .programs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .programs a {
+    padding: 1rem;
+    width: 33%;
+  }
+}
