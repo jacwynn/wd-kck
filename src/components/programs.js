@@ -1,6 +1,6 @@
 import React from "react"
-import { Card, Container, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Card, Container, CardImg, CardBody,
+    CardTitle } from 'reactstrap';
 
 import styles from '../styles/programs.module.css';
 
