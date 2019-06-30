@@ -1,0 +1,30 @@
+.mapContactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.mapContactAdditionalInfo ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mapContactAdditionalInfo li {
+  margin-right: 1.5rem;
+}
+
+a {
+  color: #dc3545;
+}
+
+@media (min-width: 991px) {
+  .mapContactInfo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mapContactAdditionalInfo {
+    margin-left: 1rem;
+  }
+}
