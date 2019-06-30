@@ -17,7 +17,7 @@ const Programs = () => {
         <section className={styles.programSection}>
             <Container>
             <h2 className={styles.headline}>Welcome to KCK Beauty & Barber Academy Inc.</h2>
-
+                <hr />
                 <div className={styles.programs}>
                     <a href="#">
                         <Card className={styles.card}>
