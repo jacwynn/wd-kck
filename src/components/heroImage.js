@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container } from 'reactstrap';
 
   import styles from '../styles/heroImage.module.css';
   import image from '../images/kck_logo.png';
