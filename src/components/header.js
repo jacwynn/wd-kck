@@ -32,6 +32,7 @@ export default class Header extends React.Component {
       <div className={styles.header}>
         <Navbar dark expand="md">
           <NavbarToggler onClick={this.toggle} />
+          <p className={styles.logoText}>KCK Beauty and Barber Academy</p>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar className="ml-0 w-100 justify-content-between">
               <NavItem className="mb-0">
