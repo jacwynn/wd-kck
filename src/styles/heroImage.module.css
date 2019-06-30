@@ -1,0 +1,48 @@
+.heroImage {
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer,
+.textContainer {
+  padding: 2rem;
+}
+
+.imageContainer img {
+  margin-bottom: 0;
+}
+
+.textContainer {
+  padding-top: 0;
+}
+
+.textContainer h4 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-style: italic;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .wrap {
+    max-width: 1230px;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+
+  .heroImage {
+    min-height: 20rem;
+    padding: 2rem;
+  }
+
+  .textContainer {
+    padding: 0;
+    max-width: 25rem;
+  }
+}
