@@ -1,0 +1,16 @@
+.orientationTable {
+  display: flex;
+  flex-direction: column;
+}
+
+.orientationTable p,
+.orientationTable h4 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .orientationTable {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
