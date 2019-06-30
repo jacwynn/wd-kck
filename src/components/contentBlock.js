@@ -9,7 +9,8 @@ const ContentBlock = (props) => {
             <Container>
                 <h2 className={styles.headline}>{props.title}</h2>
                 <hr />
-                {props.image ? 
+                {props.image 
+                    ? 
                     <div className={styles.hasImage}>
                         <img src={props.image} className={styles.image} alt="KCK VA Benefits"/>
 
