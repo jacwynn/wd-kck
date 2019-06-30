@@ -1,0 +1,15 @@
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .imageContainer {
+    flex-direction: row;
+  }
+
+  .imageContainer img {
+    width: 47%;
+  }
+}
