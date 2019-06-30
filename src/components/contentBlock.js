@@ -9,9 +9,24 @@ const ContentBlock = (props) => {
             <Container>
                 <h2 className={styles.headline}>{props.title}</h2>
                 <hr />
-                {props.paragraphs.map((paragraph, index) => {
-                    return <p key={index}>{paragraph}</p>
-                })}
+                {props.image ? 
+                    <div className={styles.hasImage}>
+                        <img src={props.image} className={styles.image} alt="KCK VA Benefits"/>
+
+                        <div>
+                            {props.paragraphs.map((paragraph, index) => {
+                                return <p key={index}>{paragraph}</p>
+                            })}
+                        </div>
+                    </div>
+                    :
+                    <div>
+                        {props.paragraphs.map((paragraph, index) => {
+                            return <p key={index}>{paragraph}</p>
+                        })}
+                    </div>
+                }
+                {props.horizontalRule ? <hr className={styles.horizontalRule} /> : ""}
             </Container>
         </section>
     )
