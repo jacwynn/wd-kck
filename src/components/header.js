@@ -11,6 +11,8 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
+  import { Link } from 'gatsby';
+
   import styles from '../styles/header.module.css';
 
 export default class Header extends React.Component {
@@ -47,10 +49,10 @@ export default class Header extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Admission
+                    <Link to="/admissions">Admission</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    School Catalog
+                    <Link to="/catalog">School Catalog</Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
