@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 
 import GeneralInfo from '../components/generalInfo';
 import Orientation from '../components/orientation';
+import FinancialAssistance from '../components/financialAssistance';
 
 const AdmissionPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const AdmissionPage = () => (
     <br />
     <GeneralInfo title="Admission" paragraphs={["test", "test"]} />
     <Orientation />
+    <FinancialAssistance />
   </Layout>
 )
 

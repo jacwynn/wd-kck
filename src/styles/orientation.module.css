@@ -1,3 +1,7 @@
+.orientationSection {
+  margin-bottom: 3.5rem;
+}
+
 .orientationTable {
   display: flex;
   flex-direction: column;
