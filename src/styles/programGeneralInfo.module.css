@@ -1,0 +1,24 @@
+.programGeneralInfoSection h2 {
+  text-align: center;
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+.contentImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .contentImages {
+    flex-direction: row;
+  }
+
+  .contentImages img {
+    max-width: 23%;
+  }
+}
