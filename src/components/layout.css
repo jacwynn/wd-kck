@@ -617,6 +617,9 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+section:last-child {
+  margin-bottom: 6rem;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
