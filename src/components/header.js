@@ -65,22 +65,22 @@ export default class Header extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Barber Program
+                    <Link to="/barber-program">Barber Program</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Cosmetology Program
+                    <Link to="/cosmetology-program">Cosmetology Program</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Manicure Program
+                    <Link to="/manicure-program">Manicure Program</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Skin Care Specialist Program
+                    <Link to="/skin-care-program">Skin Care Specialist Program</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Full Specialist Program
+                    <Link to="/full-specialist-program">Full Specialist Program</Link>
                   </DropdownItem>
                   <DropdownItem>
-                    Instructor Program
+                    <Link to="/instructor-program">Instructor Program</Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
