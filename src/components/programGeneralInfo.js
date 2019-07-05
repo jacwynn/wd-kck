@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 import styles from '../styles/programGeneralInfo.module.css';
 
@@ -17,11 +17,13 @@ const ProgramGeneralInfo = (props) => {
                     return <div><p key={index}>{paragraph}</p></div>
                 })}
 
-                <div className={styles.contentImages}>
-                    {props.content.images.contentImages.map((image) => {
-                        return <img src={image} alt=""/>
-                    })}
-                </div>
+                {props.content.images.contentImages ?
+                    <div className={styles.contentImages}>
+                        {props.content.images.contentImages.map((image) => {
+                            return <img src={image} alt=""/>
+                        })}
+                    </div>
+                : ""}
             </Container>
         </section>
     )

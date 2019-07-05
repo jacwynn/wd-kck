@@ -54,12 +54,7 @@ const ProgramCostTable = props => {
                         </tr>
                     </tbody>
                 </Table>
-                <h3>Barber Textbooks</h3>
-                <ul>
-                    <li><a href="https://www.google.com/search?q=Milady%E2%80%99s+Standard+Professional+Barbering+Bundle(Textbook%2C+workbook)%3B+2011+5th+Edition&oq=Milady%E2%80%99s+Standard+Professional+Barbering+Bundle(Textbook%2C+workbook)%3B+2011+5th+Edition&aqs=chrome..69i57.605j0j7&sourceid=chrome&es_sm=91&ie=UTF-8" target="_blank">Milady’s Standard Professional Barbering Bundle(Textbook, workbook); 2011 5th Edition</a></li>
-                    <li><a href="https://www.google.com/search?q=ISBN-13%3A+9781133023975&oq=ISBN-13%3A+9781133023975&aqs=chrome..69i57j69i58.814j0j9&sourceid=chrome&es_sm=91&ie=UTF-8#q=ISBN:+13:+9780538457675" target="_blank">ISBN: 13: 9780538457675; $226.95</a></li>
-                    <li><a href="https://www.onetonline.org/link/summary/39-5011.00" target="_blank">Onetonline.org - SOC CODE: 39-5011</a></li>
-                </ul>
+                <h3>{props.costs.title} Textbooks</h3>
             </Container>
         </section>
     )

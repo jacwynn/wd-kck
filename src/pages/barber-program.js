@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 
 import ProgramGeneralInfo from '../components/programGeneralInfo';
 import ProgramCostTable from "../components/programCostTable";
+import Textbooks from '../components/textbooks';
 
 import barberImage1 from '../images/barber-1.jpeg';
 import barberImage2 from '../images/barber-2.jpeg';
@@ -22,6 +23,7 @@ const content = {
 }
 
 const costsObj = {
+  title: "Barber",
   tuition: "$11,500.00",
   appFees: "$50.00",
   regFees: "$100.00",
@@ -32,12 +34,29 @@ const costsObj = {
   totalHours: "1200 Hours"
 }
 
+const textBooks = [
+  {
+      bookName: "Milady’s Standard Professional Barbering Bundle(Textbook, workbook); 2011 5th Edition",
+      bookLink: "https://www.google.com/search?q=Milady%E2%80%99s+Standard+Professional+Barbering+Bundle(Textbook%2C+workbook)%3B+2011+5th+Edition&oq=Milady%E2%80%99s+Standard+Professional+Barbering+Bundle(Textbook%2C+workbook)%3B+2011+5th+Edition&aqs=chrome..69i57.605j0j7&sourceid=chrome&es_sm=91&ie=UTF-8"
+  },
+  {
+      bookName: "ISBN: 13: 9780538457675; $226.95",
+      bookLink: "https://www.google.com/search?q=ISBN-13%3A+9781133023975&oq=ISBN-13%3A+9781133023975&aqs=chrome..69i57j69i58.814j0j9&sourceid=chrome&es_sm=91&ie=UTF-8#q=ISBN:+13:+9780538457675"
+  },
+  {
+      bookName: "Onetonline.org - SOC CODE: 39-5011",
+      bookLink: "https://www.onetonline.org/link/summary/39-5011.00"
+  }
+
+]
+
 const BarberProgram = () => (
     <Layout>
       <SEO title="Barber Program" />
       <br/>
       <ProgramGeneralInfo content={content} />
       <ProgramCostTable costs={costsObj} />
+      <Textbooks books={textBooks} />
     </Layout>
   )
   
