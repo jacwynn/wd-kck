@@ -45,7 +45,7 @@ const ProgramCostTable = props => {
                         <tr>
                             <td>Total Program Cost</td>
                             <td></td>
-                            <td>{props.costs.totalCost}</td>
+                            <td><strong>{props.costs.totalCost}</strong></td>
                         </tr>
                         <tr>
                             <td>Total Hours</td>
