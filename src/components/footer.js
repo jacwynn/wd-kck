@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Container, Row, Col, Button, Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 import styles from '../styles/footer.module.css';
 
@@ -30,12 +30,57 @@ export default class Footer extends React.Component {
                     </Col>
                 </Row>
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
-                    <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+                    <ModalHeader toggle={this.toggle}>Request Information Form</ModalHeader>
                     <ModalBody>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <Form>
+                            <FormGroup>
+                                <Label for="exampleEmail">First Name</Label>
+                                <Input type="text" name="firstName" id="exampleEmail" />
+                            </FormGroup> 
+
+                            <FormGroup>
+                                <Label for="exampleEmail">Last Name</Label>
+                                <Input type="text" name="lastName" id="exampleEmail" />
+                            </FormGroup> 
+
+                            <FormGroup>
+                                <Label for="exampleEmail">Email</Label>
+                                <Input type="email" name="email" id="exampleEmail" />
+                            </FormGroup> 
+
+                            <FormGroup>
+                                <Label for="exampleEmail">Phone Number</Label>
+                                <Input type="tel" name="phoneNumber" id="exampleEmail" />
+                            </FormGroup> 
+
+                            <FormGroup>
+                                <Label for="exampleEmail">Address</Label>
+                                <Input type="text" name="address" id="exampleEmail" />
+                            </FormGroup> 
+
+                            <FormGroup>
+                                <Label for="exampleEmail">State</Label>
+                                <Input type="text" name="state" id="exampleEmail" />
+                            </FormGroup> 
+
+                            <FormGroup>
+                                <Label for="exampleEmail">City</Label>
+                                <Input type="text" name="city" id="exampleEmail" />
+                            </FormGroup> 
+
+                            <FormGroup>
+                                <Label for="exampleEmail">Zip Code</Label>
+                                <Input type="text" name="zipCode" id="exampleEmail" />
+                            </FormGroup> 
+
+                            <FormGroup>
+                                <Label for="exampleEmail">Questions or Comments</Label>
+                                <Input type="textarea" name="questions" id="exampleEmail" />
+                            </FormGroup> 
+                        </Form>                       
                     </ModalBody>
                     <ModalFooter>
-                        <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+                        <Button color="danger" onClick={this.toggle}>Get Information</Button>{' '}
                         <Button color="secondary" onClick={this.toggle}>Cancel</Button>
                     </ModalFooter>
                 </Modal>
