@@ -2,6 +2,8 @@ import React from "react"
 import { Card, Container, CardImg, CardBody,
     CardTitle } from 'reactstrap';
 
+import { Link } from 'gatsby';
+
 import styles from '../styles/programs.module.css';
 
 // Images
@@ -19,59 +21,59 @@ const Programs = () => {
             <h2 className={styles.headline}>Welcome to KCK Beauty & Barber Academy Inc.</h2>
                 <hr />
                 <div className={styles.programs}>
-                    <a href="#">
+                    <Link to="/barber-program">
                         <Card className={styles.card}>
                             <CardImg top width="100%" src={barberIMG} alt="KCK Barber Program" />
                             <CardBody>
                                 <CardTitle className={styles.cardTitle}>Barber Program</CardTitle>
                             </CardBody>
                         </Card>
-                    </a>
+                    </Link>
 
-                    <a href="#">
+                    <Link to="/cosmetology-program">
                         <Card className={styles.card}>
                             <CardImg top width="100%" src={cosmetologyIMG} alt="KCK Cosmetology Program" />
                             <CardBody>
                                 <CardTitle className={styles.cardTitle}>Cosmetology Program</CardTitle>
                             </CardBody>
                         </Card>
-                    </a>
+                    </Link>
 
-                    <a href="#">
+                    <Link to="skin-care-program">
                         <Card className={styles.card}>
                             <CardImg top width="100%" src={skinCareIMG} alt="KCK Skin Care Program" />
                             <CardBody>
                                 <CardTitle className={styles.cardTitle}>Skin Care Program</CardTitle>
                             </CardBody>
                         </Card>
-                    </a>
+                    </Link>
 
-                    <a href="#">
+                    <Link to="manicure-program">
                         <Card className={styles.card}>
                             <CardImg top width="100%" src={manicureIMG} alt="KCK Manicure Program" />
                             <CardBody>
                                 <CardTitle className={styles.cardTitle}>Manicure Program</CardTitle>
                             </CardBody>
                         </Card>
-                    </a>
+                    </Link>
 
-                    <a href="#">
+                    <Link to="full-specialist-program">
                         <Card className={styles.card}>
                             <CardImg top width="100%" src={specialistIMG} alt="KCK Full Specialist Program" />
                             <CardBody>
                                 <CardTitle className={styles.cardTitle}>Full Specialist Program</CardTitle>
                             </CardBody>
                         </Card>
-                    </a>
+                    </Link>
 
-                    <a href="#">
+                    <Link to="instructor-program">
                         <Card className={styles.card}>
                             <CardImg top width="100%" src={instructorIMG} alt="KCK Instructor Program" />
                             <CardBody>
                                 <CardTitle className={styles.cardTitle}>Instructor Program</CardTitle>
                             </CardBody>
                         </Card>
-                    </a>
+                    </Link>
                 </div>
             </Container>
         </section>
