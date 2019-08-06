@@ -8,10 +8,6 @@ import Staff from '../components/staff';
 
 import vaIMG from '../images/vabenefits-stamp.png';
 
-const hyperlinks = {
-    naccas: "<a href='http://www.naccas.org' target='_blank'>www.naccas.org</a>"
-}
-
 const contentAbout = {
     title: "About KCK Beauty & Barber Academy",
     paragraphs: [
