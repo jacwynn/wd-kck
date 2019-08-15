@@ -9,6 +9,7 @@ const ContentBlock = (props) => {
             <Container>
                 <h2 className={styles.headline}>{props.title}</h2>
                 <hr />
+                {props.banner ? <img className={styles.banner} src={props.banner} /> : ""}
                 {props.image 
                     ? 
                     <div className={styles.hasImage}>

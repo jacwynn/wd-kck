@@ -2,6 +2,10 @@
   margin-bottom: 3.5rem;
 }
 
+.banner {
+  width: 100%;
+}
+
 .headline {
   text-align: center;
 }
