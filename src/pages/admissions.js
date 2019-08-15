@@ -11,7 +11,7 @@ const AdmissionPage = () => (
   <Layout>
     <SEO title="Admission" />
     <br />
-    <GeneralInfo title="Admission" paragraphs={["test", "test"]} />
+    <GeneralInfo title="Admission" />
     <Orientation />
     <FinancialAssistance />
   </Layout>
