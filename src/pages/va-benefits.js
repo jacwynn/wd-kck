@@ -11,7 +11,7 @@ import ContentBlock from '../components/contentBlock';
 const contentVABenefits = {
     title: "Veteran Benefits",
     paragraphs: [
-        "KCK Beauty and Barber Academy, Inc is approved by US Department of Veteran Affairs for Veterans Training for Education assistance of Veterans, dependents of Veterans and Survivors of Veterans. Call today to speak to our financial director for more information regarding Veteran Benefits. Helpful link to refer to www.va.gov"
+        <div dangerouslySetInnerHTML={{__html: 'KCK Beauty and Barber Academy, Inc is approved by US Department of Veteran Affairs for Veterans Training for Education assistance of Veterans, dependents of Veterans and Survivors of Veterans. Call today to speak to our financial director for more information regarding Veteran Benefits. Helpful link to refer to <a href="https://www.va.gov/" target="_blank">www.va.gov</a>'}} />
     ]
 }
 
