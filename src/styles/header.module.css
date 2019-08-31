@@ -2,6 +2,10 @@
   background-color: #d9534f;
 }
 
+.headerContainer {
+  padding: 0;
+}
+
 .headerNavLink {
   color: white !important;
   text-transform: uppercase;
@@ -24,6 +28,11 @@
 }
 
 @media (min-width: 768px) {
+  .headerContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .logoText {
     display: none;
   }
