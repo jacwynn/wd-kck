@@ -80,7 +80,7 @@ export default class Footer extends React.Component {
                         </Form>                       
                     </ModalBody>
                     <ModalFooter>
-                        <Button color="danger" onClick={this.toggle}>Get Information</Button>{' '}
+                        <Button type="submit" color="danger" onClick={this.toggle}>Get Information</Button>{' '}
                         <Button color="secondary" onClick={this.toggle}>Cancel</Button>
                     </ModalFooter>
                 </Modal>
