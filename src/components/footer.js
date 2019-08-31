@@ -32,7 +32,9 @@ export default class Footer extends React.Component {
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
                     <ModalHeader toggle={this.toggle}>Request Information Form</ModalHeader>
                     <ModalBody>
-                        <Form name="SignUpForm" method="POST" netlify>
+                        <Form name="SignUpForm" method="POST" data-netlify="true">
+                            <input type="hidden" name="bot-field" />
+                            <input type="hidden" name="form-name" value="SignUpForm" />
                             <FormGroup>
                                 <Label for="exampleEmail">First Name</Label>
                                 <Input type="text" name="firstName" id="exampleEmail" />
