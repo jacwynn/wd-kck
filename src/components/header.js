@@ -48,11 +48,11 @@ export default class Header extends React.Component {
                   Students
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-                    <Link to="/admissions">Admission</Link>
+                  <DropdownItem className={styles.dropdownLinksBtn}>
+                    <Link to="/admissions" className={styles.dropdownLinks}>Admission</Link>
                   </DropdownItem>
-                  <DropdownItem>
-                    <Link to="/catalog">School Catalog</Link>
+                  <DropdownItem className={styles.dropdownLinksBtn}>
+                    <Link to="/catalog" className={styles.dropdownLinks}>School Catalog</Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -64,23 +64,23 @@ export default class Header extends React.Component {
                   Programs
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-                    <Link to="/barber-program">Barber Program</Link>
+                  <DropdownItem className={styles.dropdownLinksBtn}>
+                    <Link to="/barber-program" className={styles.dropdownLinks}>Barber Program</Link>
                   </DropdownItem>
-                  <DropdownItem>
-                    <Link to="/cosmetology-program">Cosmetology Program</Link>
+                  <DropdownItem className={styles.dropdownLinksBtn}>
+                    <Link to="/cosmetology-program" className={styles.dropdownLinks}>Cosmetology Program</Link>
                   </DropdownItem>
-                  <DropdownItem>
-                    <Link to="/manicure-program">Manicure Program</Link>
+                  <DropdownItem className={styles.dropdownLinksBtn}>
+                    <Link to="/manicure-program" className={styles.dropdownLinks}>Manicure Program</Link>
                   </DropdownItem>
-                  <DropdownItem>
-                    <Link to="/skin-care-program">Skin Care Specialist Program</Link>
+                  <DropdownItem className={styles.dropdownLinksBtn}>
+                    <Link to="/skin-care-program" className={styles.dropdownLinks}>Skin Care Specialist Program</Link>
                   </DropdownItem>
-                  <DropdownItem>
-                    <Link to="/full-specialist-program">Full Specialist Program</Link>
+                  <DropdownItem className={styles.dropdownLinksBtn}>
+                    <Link to="/full-specialist-program" className={styles.dropdownLinks}>Full Specialist Program</Link>
                   </DropdownItem>
-                  <DropdownItem>
-                    <Link to="/instructor-program">Instructor Program</Link>
+                  <DropdownItem className={styles.dropdownLinksBtn}>
+                    <Link to="/instructor-program" className={styles.dropdownLinks}>Instructor Program</Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
