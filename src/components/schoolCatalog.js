@@ -9,7 +9,7 @@ const Catalog = () => {
         <section className={styles.catalog}>
             <Container>
                 <div class="panel panel-default text-center">
-                    <ul class="list-group">
+                    <ul>
                         <li class="list-group-item"><strong><a href={KCKCatalog} target="_blank">Catalog</a></strong></li>
                     </ul>
                 </div>
