@@ -70,12 +70,12 @@ export default class Footer extends React.Component {
                                 <label>Questions/Comments?</label>
                                 <textarea type="type" class="form-control" name="comments"/>
                             </div>
+                            <ModalFooter>
+                                <Button type="submit" color="danger" onClick={this.toggle}>Get Information</Button>{' '}
+                                <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+                            </ModalFooter>
                         </form>
                     </ModalBody>
-                    <ModalFooter>
-                        <Button type="submit" color="danger" onClick={this.toggle}>Get Information</Button>{' '}
-                        <Button color="secondary" onClick={this.toggle}>Cancel</Button>
-                    </ModalFooter>
                 </Modal>
             </Container>
         )
