@@ -48,19 +48,19 @@ export default class Footer extends React.Component {
                             </div>
                             <div class="form-group">
                                 <label>Phone Number</label>
-                                <input type="tel" class="form-control" name="phoneNumber"/>
+                                <input type="text" class="form-control" name="phoneNumber"/>
                             </div>
                             <div class="form-group">
                                 <label>Address</label>
-                                <input type="tel" class="form-control" name="address"/>
+                                <input type="text" class="form-control" name="address"/>
                             </div>
                             <div class="form-group">
                                 <label>State</label>
-                                <input type="tel" class="form-control" name="state"/>
+                                <input type="text" class="form-control" name="state"/>
                             </div>
                             <div class="form-group">
                                 <label>City</label>
-                                <input type="tel" class="form-control" name="city"/>
+                                <input type="text" class="form-control" name="city"/>
                             </div>
                             <div class="form-group">
                                 <label>Zip Code</label>
@@ -70,10 +70,11 @@ export default class Footer extends React.Component {
                                 <label>Questions/Comments?</label>
                                 <textarea type="type" class="form-control" name="comments"/>
                             </div>
-                            <ModalFooter>
+                            <input type="submit" value="Send Message" className="special" />
+                            {/* <ModalFooter>
                                 <Button type="submit" color="danger" onClick={this.toggle}>Get Information</Button>{' '}
                                 <Button color="secondary" onClick={this.toggle}>Cancel</Button>
-                            </ModalFooter>
+                            </ModalFooter> */}
                         </form>
                     </ModalBody>
                 </Modal>
