@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 
 import ContactHeroImage from '../components/contactHeroImage';
 import ContactMap from '../components/contactMap';
+import SignupForm from '../components/signupForm';
 
 const ContactPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const ContactPage = () => (
     <br />
     <ContactHeroImage />
     <ContactMap />
+    <SignupForm />
   </Layout>
 )
 
