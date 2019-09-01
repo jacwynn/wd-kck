@@ -32,43 +32,43 @@ export default class Footer extends React.Component {
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
                     <ModalHeader toggle={this.toggle}>Request Information Form</ModalHeader>
                     <ModalBody>
-                        <form name="SignUpForm" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                             <input type="hidden" name="bot-field" />
                             <div class="form-group">
                                 <label>First Name</label>
-                                <input type="text" class="form-control" name="firstName"/>
+                                <input type="text" class="form-control" name="firstName" id="firstName"/>
                             </div>
                             <div class="form-group">
                                 <label>Last Name</label>
-                                <input type="text" class="form-control" name="lastName"/>
+                                <input type="text" class="form-control" name="lastName" id="lastName"/>
                             </div>
                             <div class="form-group">
                                 <label>Email</label>
-                                <input type="email" class="form-control" name="email"/>
+                                <input type="email" class="form-control" name="email" id="email"/>
                             </div>
                             <div class="form-group">
                                 <label>Phone Number</label>
-                                <input type="text" class="form-control" name="phoneNumber"/>
+                                <input type="text" class="form-control" name="phoneNumber" id="phoneNumber"/>
                             </div>
                             <div class="form-group">
                                 <label>Address</label>
-                                <input type="text" class="form-control" name="address"/>
+                                <input type="text" class="form-control" name="address" id="address"/>
                             </div>
                             <div class="form-group">
                                 <label>State</label>
-                                <input type="text" class="form-control" name="state"/>
+                                <input type="text" class="form-control" name="state" id="state"/>
                             </div>
                             <div class="form-group">
                                 <label>City</label>
-                                <input type="text" class="form-control" name="city"/>
+                                <input type="text" class="form-control" name="city" id="city"/>
                             </div>
                             <div class="form-group">
                                 <label>Zip Code</label>
-                                <input type="text" class="form-control" name="zipCode"/>
+                                <input type="text" class="form-control" name="zipCode" id="zipCode"/>
                             </div>
                             <div class="form-group">
                                 <label>Questions/Comments?</label>
-                                <textarea type="type" class="form-control" name="comments"/>
+                                <textarea type="type" class="form-control" name="comments" id="comments"/>
                             </div>
                             <input type="submit" value="Send Message" className="special" />
                             {/* <ModalFooter>
