@@ -9,6 +9,7 @@ const SignupForm = () => {
         <section className={styles.catalog}>
             <Container>
                 <form name="contact" id="contactForm" method="post" action="/" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <p>Fill out form below to receive information.</p>
                     <input type="hidden" name="bot-field" />
                     <div class="form-group">
                         <label>First Name</label>
