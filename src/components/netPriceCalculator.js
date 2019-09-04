@@ -7,7 +7,7 @@ const NetPriceCalculator = () => {
     return (
         <section className={styles.netPriceCalcContainer}>
             <Container>
-                <iframe src="http://kckbbacademy.org/npcalc.htm"/>
+                <iframe src="https://kckbbacademy.org/npcalc.htm"/>
             </Container>
         </section>
     )
